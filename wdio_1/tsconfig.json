@@ -1,0 +1,16 @@
+{
+  "compilerOptions":{
+    "outDir" : "./build",
+    "allowJs" : true,
+    "inlineSourceMap" : true,
+    "types": [
+      "node",
+      "webdriverio/async",
+      "jquery",
+      "@wdio/sync",
+      "@wdio/mocha-framework"
+    ],
+    "module": "commonjs",
+    "target": "es6"
+  }
+}
